@@ -46,7 +46,7 @@ p {
 
 .hero {
   position: relative;
-  background: #91afe0 no-repeat center center fixed;
+  background: #91afe0 no-repeat right fixed;
   background-position: right;
   -webkit-background-size: cover;
   -moz-background-size: cover;
