@@ -12,15 +12,13 @@ body {
   margin-top: 100px;
   background-color: #8c0428;
   color: #fff;
-  position: fixed;
+  position: absolute;
 }
 
 body {
   color: #4b5a72;
   background: white;
-  font-family: "Cardo", serif;
   font-weight: 300;
-  -webkit-font-smoothing: antialiased;
 }
 
 a {
