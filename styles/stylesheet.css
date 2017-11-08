@@ -12,7 +12,8 @@ body {
   margin-top: 100px;
   background-color: #8c0428;
   color: #fff;
-  position: absolute;
+  position: float;
+  float: right;
 }
 
 body {
