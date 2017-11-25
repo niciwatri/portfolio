@@ -11,11 +11,16 @@ body {
   width: 170px;
   margin-top: 300px;
   background-color: #8c0428;
+  color: #fff;
   position: sticky;
   float: left;
   margin-right: 60px; 
 }
 
+.primary {
+  color: #fff;
+
+}
 .item {
   color: white;
   list-style-type: none;
@@ -24,7 +29,7 @@ body {
 .subitem {
   color: white;
   list-style-type: none;
-  padding: none;
+  padding: 0;
 }
 
 body {
