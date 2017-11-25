@@ -22,6 +22,11 @@ body {
   list-style-type: none;
 }
 
+.item {
+  color: withe;
+  list-style-type: none;
+}
+
 body {
   color: #4b5a72;
   background: white;
