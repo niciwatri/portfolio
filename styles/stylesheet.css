@@ -18,13 +18,14 @@ body {
 }
 
 .item {
-  color: withe;
+  color: white;
   list-style-type: none;
 }
 
 .subitem {
-  color: withe;
+  color: white;
   list-style-type: none;
+  padding: none;
 }
 
 body {
