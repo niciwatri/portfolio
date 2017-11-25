@@ -16,7 +16,7 @@ ul {
   margin-top: 300px;
   background-color: #8c0428;
   color: #fff;
-  position: sticky;
+  position: float;
   float: left;
   margin-right: 60px; 
 }
