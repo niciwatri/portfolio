@@ -6,9 +6,13 @@ body {
   height: 100%;
 }*/
 
+li {
+  padding-left: 0px;
+}
+
 .sidebar {
   padding: 20px;
-  width: 170px;
+  width: 220px;
   margin-top: 300px;
   background-color: #8c0428;
   color: #fff;
