@@ -17,6 +17,11 @@ body {
   margin-right: 60px; 
 }
 
+.item {
+  color: withe;
+  list-style-type: none;
+}
+
 body {
   color: #4b5a72;
   background: white;
