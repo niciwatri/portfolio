@@ -1,5 +1,5 @@
 body { 
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Quicksand', sans-serif, medium;
 }
 
 /*html, body {
@@ -11,8 +11,10 @@ ul {
 }
 
 #unterricht { padding-left: 280px;
-
 }
+.row content { padding-left: 280px;
+}
+
 .sidebar {
   padding: 20px;
   width: 220px;
