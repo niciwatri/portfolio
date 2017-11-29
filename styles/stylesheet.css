@@ -46,13 +46,17 @@ ul {
 body {
   color: #4b5a72;
   background: white;
-  font-weight: 300;
+  font-weight: medium;
 }
 
 a {
+  font-size: 20px;
   text-decoration: none;
   color: white;
   font-weight: bold;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 0.075em;
 }
 
 h1 {
