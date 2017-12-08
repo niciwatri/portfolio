@@ -1,28 +1,44 @@
 body { 
 	font-family: 'Quicksand', sans-serif;
   font-weight: medium;
+  webkit-font-smoothing: antialiased
 }
 
 /*html, body {
   height: 100%;
 }*/
 
+hr {
+  height: 10px;
+  background-color: #95b6ed;
+  width: 100%;
+}
+
+ul li {
+  list-style: square;
+}
+
 ul {
-  padding-left: 0px;
+  padding-left: 20px;
+}
+
+ol {
+  margin-left: -20px;
 }
 
 #unterricht { padding-left: 280px;
 }
-.row content { padding-left: 280px;
+.row.content {  margin-top; 350px;
+                margin-left: 300px;
+                margin-right: 250px;
 }
 
 .sidebar {
   padding: 20px;
   width: 220px;
-  margin-top: 300px;
   background-color: #8c0428;
   color: #fff;
-  position: float;
+  position: fixed;
   float: left;
   margin-right: 60px; 
 }
@@ -34,6 +50,14 @@ ul {
 .item {
   color: white;
   list-style-type: none;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 0.15em;
+  padding-bottom: 30px;
 }
 
 .subitem {
@@ -41,7 +65,12 @@ ul {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+  text-transform: none;
+  font-weight: normal;
 }
+
 
 body {
   color: #4b5a72;
@@ -50,13 +79,9 @@ body {
 }
 
 a {
-  font-size: 20px;
   text-decoration: none;
   color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  letter-spacing: 0.075em;
+  
 }
 
 h1 {
@@ -64,12 +89,30 @@ h1 {
   line-height: 1.8;
   text-transform: uppercase;
   font-family: sans-serif;
+  letter-spacing: 0.05em;
+}
+
+h4  {
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    line-height: 1.25;
+    margin-bottom: -15px;
+    color: #8c0428;
+}
+
+h6  {
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 1.25;
+    text-decoration: underline;
+    margin-bottom: -10px;
 }
 
 p {
-  margin-bottom: 20px;
-  font-size: 17px;
-  line-height: 2;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.05em;
 }
 
 .content {
@@ -86,13 +129,14 @@ p {
   text-align: center;
   color: #8c0428;
   padding-top: 60px;
-  padding-left: -60px;
   min-height: 300px;
   letter-spacing: 2px;
 }
 .hero h1 {
   font-size: 50px;
   line-height: 1.3;
+  text-align: center;
+  display: inline-block;
 }
 .hero h1 span {
   font-size: 25px;
@@ -100,6 +144,7 @@ p {
   border-bottom: 2px solid #8c0428;
   padding-bottom: 12px;
   line-height: 3;
+  text-align: center;
 }
 
 .mouse {
@@ -157,4 +202,10 @@ p {
     -ms-transform: translateY(20px);
     transform: translateY(20px);
   }
+}
+
+footer {
+  font-size: 12px;
+  float: right;
+  padding: 10px;
 }
