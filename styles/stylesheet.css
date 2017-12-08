@@ -1,7 +1,8 @@
 body { 
 	font-family: 'Quicksand', sans-serif;
   font-weight: medium;
-  webkit-font-smoothing: antialiased
+  webkit-font-smoothing: antialiased;
+  margin: 0;
 }
 
 /*html, body {
@@ -121,16 +122,15 @@ p {
 
 .hero {
   position: relative;
-  background: #95b6ed no-repeat right;
+  background: #95b6ed;
   background-position: right;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
+  background-size: 100%;
   text-align: center;
   color: #8c0428;
   padding-top: 60px;
   min-height: 300px;
   letter-spacing: 2px;
+  width: 100%;
 }
 .hero h1 {
   font-size: 50px;
