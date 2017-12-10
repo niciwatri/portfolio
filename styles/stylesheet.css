@@ -15,6 +15,15 @@ hr {
   width: 100%;
 }
 
+.whiteline {
+  background-color: white;
+  height: 2px;
+  width: 80%;
+  float: left;
+  margin-top: 13px;
+}
+
+
 ul li {
   list-style: square;
 }
@@ -39,9 +48,15 @@ ol {
   width: 220px;
   background-color: #8c0428;
   color: #fff;
-  position: fixed;
+  position: absolute;
   float: left;
   margin-right: 60px; 
+  top: 410px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
 }
 
 .primary {
@@ -128,7 +143,7 @@ p {
   text-align: center;
   color: #8c0428;
   padding-top: 60px;
-  min-height: 300px;
+  min-height: 350px;
   letter-spacing: 2px;
   width: 100%;
 }
@@ -142,7 +157,7 @@ p {
   font-size: 25px;
   color: #8c0428;
   border-bottom: 2px solid #8c0428;
-  padding-bottom: 12px;
+  padding-bottom: 4px;
   line-height: 3;
   text-align: center;
 }
