@@ -39,8 +39,9 @@ ol {
 #unterricht { padding-left: 280px;
 }
 .row.content {  margin-top; 350px;
-                margin-left: 300px;
+                margin-left: 325px;
                 margin-right: 250px;
+                width: 800px;
 }
 
 .sidebar {
