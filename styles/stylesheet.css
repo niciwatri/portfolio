@@ -15,6 +15,10 @@ hr {
   width: 100%;
 }
 
+#hintergrund {
+  background-color: #eaf2ff;
+}
+
 .whiteline {
   background-color: white;
   height: 2px;
@@ -38,10 +42,9 @@ ol {
 
 #unterricht { padding-left: 280px;
 }
-.row.content {  margin-top; 350px;
-                margin-left: 325px;
-                margin-right: 250px;
-                width: 800px;
+.row.content {  
+  margin-left: 350px;
+  width: 750px;
 }
 
 .sidebar {
@@ -75,6 +78,7 @@ ol {
   font-family: sans-serif;
   letter-spacing: 0.15em;
   padding-bottom: 30px;
+  line-height: 2;
 }
 
 .subitem {
@@ -86,6 +90,7 @@ ol {
   font-size: 14px;
   text-transform: none;
   font-weight: normal;
+  line-height: 1.6;
 }
 
 
@@ -110,7 +115,7 @@ h1 {
 }
 
 h4  {
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 0.05em;
     line-height: 1.25;
     margin-bottom: -15px;
@@ -118,23 +123,27 @@ h4  {
 }
 
 h6  {
-    font-size: 14px;
+    font-size: 17px;
     letter-spacing: 0.05em;
     line-height: 1.25;
-    text-decoration: underline;
     margin-bottom: -10px;
+}
+
+h8  {
+  font-size: 14px;
+  font-weight: bold;
+  color: #95b6ed;
+  background-color: #2c2c2c;
+  letter-spacing: 0.05em;
 }
 
 p {
   margin-bottom: 30px;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.25;
   letter-spacing: 0.05em;
 }
 
-.content {
-  padding: 0px 2% 250px;
-}
 
 .hero {
   position: relative;
