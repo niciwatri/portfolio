@@ -61,6 +61,7 @@ ol {
   float: left;
   margin-right: 60px; 
   top: 410px;
+
 }
 
 .sticky {
@@ -78,26 +79,33 @@ ol {
   opacity: 0;
   transition: all 250ms ease-in-out;
   -webkit-transition: all 250ms ease-in-out;
+  visibility: hidden;
 }
 
 #projekt:hover .sub{
   height: 120px;
   opacity: 1;
+  visibility: visible;
 
 }
-
 
 #unterricht .sub{
   height: 0;
   opacity: 0;
   transition: all 250ms ease-in-out;
   -webkit-transition: all 250ms ease-in-out;
+  visibility: hidden;
 }
 
 #unterricht:hover .sub{
-  height: 120px;
+  height: 80px;
   opacity: 1;
+  visibility: visible;
 
+}
+
+#unterricht.item{
+  padding-bottom: 0px;
 }
 
 .item {
@@ -138,6 +146,12 @@ a {
   color: white;
   
 }
+
+h1, h4 {
+  padding-top: 40px;
+  margin-top: -40px;
+}
+
 
 h1 {
   font-size: 30px;
