@@ -17,6 +17,11 @@ hr {
 
 #hintergrund {
   background-color: #eaf2ff;
+  width: 100%;
+  margin-left: -350px;
+  padding-left: 350px;
+  padding-right: 350px;
+
 }
 
 .whiteline {
@@ -40,8 +45,8 @@ ol {
   margin-left: -20px;
 }
 
-#unterricht { padding-left: 280px;
-}
+
+
 .row.content {  
   margin-left: 350px;
   width: 750px;
@@ -67,6 +72,34 @@ ol {
   color: #fff;
 
 }
+
+#projekt .sub{
+  height: 0;
+  opacity: 0;
+  transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+}
+
+#projekt:hover .sub{
+  height: 120px;
+  opacity: 1;
+
+}
+
+
+#unterricht .sub{
+  height: 0;
+  opacity: 0;
+  transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+}
+
+#unterricht:hover .sub{
+  height: 120px;
+  opacity: 1;
+
+}
+
 .item {
   color: white;
   list-style-type: none;
