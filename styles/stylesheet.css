@@ -3,6 +3,7 @@ body {
   font-weight: medium;
   webkit-font-smoothing: antialiased;
   margin: 0;
+  overflow-x: hidden;
 }
 
 /*html, body {
@@ -12,7 +13,20 @@ body {
 hr {
   height: 10px;
   background-color: #95b6ed;
-  width: 100%;
+  width: 100vw;
+  margin-left: -350px;
+  padding: 0;
+  border-width: 0;
+}
+
+
+h1#Einleitung {
+  margin-bottom: -15px;
+}
+
+ul div {
+  color: #8c0428;
+  margin-left: -18px;
 }
 
 #hintergrund {
@@ -50,6 +64,7 @@ ol {
 .row.content {  
   margin-left: 350px;
   width: 750px;
+  margin-top: 50px;
 }
 
 .sidebar {
@@ -60,7 +75,7 @@ ol {
   position: absolute;
   float: left;
   margin-right: 60px; 
-  top: 410px;
+  top: 360px;
 
 }
 
@@ -173,7 +188,7 @@ h6  {
     font-size: 17px;
     letter-spacing: 0.05em;
     line-height: 1.25;
-    margin-bottom: -10px;
+    margin-bottom: -15px;
 }
 
 h8  {
@@ -191,6 +206,10 @@ p {
   letter-spacing: 0.05em;
 }
 
+img {
+  margin-top: -5px;
+}
+
 
 .hero {
   position: relative;
@@ -200,7 +219,7 @@ p {
   text-align: center;
   color: #8c0428;
   padding-top: 60px;
-  min-height: 350px;
+  min-height: 300px;
   letter-spacing: 2px;
   width: 100%;
 }
@@ -226,7 +245,7 @@ p {
   height: 46px;
   border-radius: 13px;
   border: 2px solid #8c0428;
-  bottom: 40px;
+ /* bottom: 40px; */
   position: absolute;
   left: 50%;
   margin-left: -14px;
@@ -278,6 +297,7 @@ p {
 
 footer {
   font-size: 12px;
-  float: right;
+  float: left;
   padding: 10px;
+  padding-top: 30px;
 }
